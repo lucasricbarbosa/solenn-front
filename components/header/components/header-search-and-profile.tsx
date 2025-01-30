@@ -61,7 +61,7 @@ function SearchInput() {
       </Button>
       <CommandDialog open={searchModalOpen} onOpenChange={setSearchModalOpen}>
         <DialogTitle className="sr-only">Pesquisa de produtos</DialogTitle>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Suggestions">
